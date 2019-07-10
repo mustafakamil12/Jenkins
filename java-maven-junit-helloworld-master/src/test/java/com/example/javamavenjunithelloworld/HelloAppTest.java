@@ -26,7 +26,7 @@ public class HelloAppTest {
         HelloApp.main(args);
     }
 
-   /* @Test
+   @Test
     public void testWrongArgument() {
         PowerMockito.mockStatic(System.class);
 
@@ -36,7 +36,7 @@ public class HelloAppTest {
         // Did the program exit with the expected error code?
         PowerMockito.verifyStatic(only());
         System.exit(HelloApp.EXIT_STATUS_PARAMETER_NOT_UNDERSTOOD);
-    } */
+    }
 
     @Test
     public void testHelloError() throws Exception {
